@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+port folio
+</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<style>
+
+	.white{
+	color:black;
+	
+	}
+	img{
+	width:250px;
+	<!--transition:opacity 1s ease-in-out;-->
+	}
+	.img-thumbnail:hover
+	{
+	opacity:0.6;
+	width:300px;
+	}
+	.align
+	{
+	text-align:center;
+	}
+	.col{
+	-webkit-column-count:3; 
+	}
+</style>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+	<nav class="navbar navbar-inverse">
+		<ul class=" nav navbar-nav">
+			<li> <a href="#home">Home</a></li>
+			<li> <a href="#photos">Photos</a></li>
+			<li> <a href="#about">About</a></li>
+			<li> <a href="#contactus">Contact me</a></li>
+		</ul>
+	</nav>
+	<section id="home" style="background: url(images/home.jpg); background-size:110% 100%; width:100vw;height:100vh;padding:50px;" class="white text-center" >
+		<h1>My Favourite Cars</h1>
+	</section>
+	<section id="photos" class="container">
+		<div class="page-header">
+			<h1 class="text-center">My Cars</h1>
+			</div>
+			<div class="align">
+			<img src="images/1.jpg" class="img-thumbnail ">
+			<img src="images/2.jpg" class="img-thumbnail">
+			<img src="images/3.jpg" class="img-thumbnail"><br>
+			<img src="images/4.jpg" class="img-thumbnail">
+			<img src="images/5.jpg" class="img-thumbnail">
+			<img src="images/6.jpg" class="img-thumbnail"><br>
+			<img src="images/7.jpg" class="img-thumbnail">
+			<img src="images/8.jpg" class="img-thumbnail">
+			<img src="images/9.jpg" class="img-thumbnail">
+			</div>
+	</section>
+	<section id="about"  >
+	<div class="page-header">
+			<h1 class="text-center">About</h1>
+			</div>
+	<div class="col">
+	A car (or automobile) is a wheeled motor vehicle used for transportation. 
+	Most definitions of car say they run primarily on roads, seat one to eight people, have four tires, and mainly transport people rather than goods.
+	Cars came into global use during the 20th century, and developed economies depend on them.
+	The year 1886 is regarded as the birth year of the modern car, when German inventor Karl Benz built his Benz Patent-Motorwagen.
+	Cars did not become widely available until the early 20th century. 
+	One of the first cars that was accessible to the masses was the 1908 Model T, an American car manufactured by the Ford Motor Company. 
+	Cars were rapidly adopted in the US, where they replaced animal-drawn carriages and carts,
+	but took much longer to be accepted in Western Europe and other parts of the world.
+	</div>
+	<!--<br>
+	<div class="row">
+	<div class="col-md-5 col-md-offset-1">
+		<div class="panel panel-primary ">
+			<div class="panel-heading">
+				<h1>Favorite1</h1>
+			</div>
+			<div class="panel-body">
+			<img src="images/2.jpg" class="img-circle center-block">
+			<p class="lead text-center">BMW</p>
+			</div>
+			<div class="panel-footer">
+		
+			</div>
+		</div>
+	</div>
+	<div class="col-md-5">
+		<div class="panel panel-primary ">
+			<div class="panel-heading">
+			<h1>Favorite2</h1>
+			</div>
+			<div class="panel-body">
+			<img src="images/3.jpg" class="img-circle center-block">
+			<p class="lead text-center">Bugatti</p>
+			</div>
+			<div class="panel-footer">
+			
+			</div>
+		</div>
+	</div>
+</div>-->
+</section>
+	<section id="contactus" style="background:silver;width:100vw;height:100vh;padding:20px;margin-top:450px;" >
+		<div class="page-header">
+			<h2 class="text-center">Contact me</h2>
+		</div>
+			<form class="col-md-5 col-md-offset-4">
+				<div class="form-group">
+					<input type="text" placeholder="Insert your Name" class="form-control">
+				</div>
+				<div class="form-group">
+					<input type="email" placeholder="Insert your Email" class="form-control">
+				</div>
+				<div class="form-group">
+					<input type="text" placeholder="Subject" class="form-control">
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" rows="6" placeholder="Comments"></textarea>
+				</div>
+				<div class="form-group">
+					<input type="submit" class="btn btn-success btn-block">
+				</div>
+			</form>
+	</section>
+</body>
+</html>
